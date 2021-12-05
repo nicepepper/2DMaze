@@ -13,9 +13,9 @@ public class TestEnemy : MonoBehaviour
         _agent = GetComponent<NavMeshAgent>();
     }
     
-    public void MoveTo(Vector3 targetPositionon)
+    public void MoveTo(Vector3 targetPosition)
     {
-        _agent.SetDestination(targetPositionon);
+        _agent.SetDestination(targetPosition);
     }
 
     public void WarpTo(Vector3 position)

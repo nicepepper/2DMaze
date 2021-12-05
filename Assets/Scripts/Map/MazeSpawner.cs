@@ -7,12 +7,9 @@ namespace Map
 {
     public class MazeSpawner : MonoBehaviour
     {
-        [SerializeField]
-        private GameObject _cellPrefab;
-        [SerializeField] 
-        private GameObject _segmentPrefab;
-        [SerializeField] 
-        private GameObject _finishPrefab;
+        [SerializeField] private GameObject _cellPrefab;
+        [SerializeField] private GameObject _segmentPrefab;
+        [SerializeField] private GameObject _finishPrefab;
 
         private void Awake()
         {
@@ -41,8 +38,6 @@ namespace Map
             _cellPrefab.SetActive(false);
             _segmentPrefab.SetActive(false);
             _finishPrefab.SetActive(false);
-            
-            
         }
     }
 }

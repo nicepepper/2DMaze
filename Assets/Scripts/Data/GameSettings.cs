@@ -11,7 +11,7 @@ namespace Data
         [SerializeField] private int _mazeWidth = 10;
         [SerializeField] private int _mazeHeight = 10;
 
-        public int TileWidth => _mazeWidth;
+        public int MazeWidth => _mazeWidth;
         public int MazeHeight => _mazeHeight;
 
         public static GameSettings Current;
